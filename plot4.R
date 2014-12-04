@@ -14,7 +14,7 @@ par(mfrow = c(2,2))
 #plot 4a
 plot(df$DateTime, df$Global_active_power, 
      type="l",
-     ylab="Global Active Power (kilowatts)",
+     ylab="Global Active Power",
      xlab="",
      main="")
 
